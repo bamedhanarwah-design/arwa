@@ -2,11 +2,10 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class AtmArrayList {
-
     public static void main(String[] args) {
         Scanner inputY = new Scanner(System.in);
         int balance = 1000000;
-
+        
         ArrayList<Integer> transactions = new ArrayList<>();
         System.out.print("Navigation \n1)Deposit \n2)Withdrawal \n3)Check Balance \n4)Amount Deposited \n5)Amount withdrawn \n6)Transactions \n0)Exit\n");
         do {
